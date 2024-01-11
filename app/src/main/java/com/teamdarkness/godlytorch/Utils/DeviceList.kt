@@ -269,6 +269,13 @@ object DeviceList {
                         .setWhiteLedFileLocation("led:torch_1/brightness")
                         .setToggleFileLocation("led:switch_0/brightness")
         )
+        deviceList.add(
+                Device().setName("Pixel 5")
+                        .setDeviceId("redfin")
+                        .isDualTone(false)
+                        .setSingleLedFileLocation("led:torch_0/brightness")
+                        .setToggleFileLocation("led:switch_0/brightness")
+        )
         //Redmi series
         deviceList.add(
                 Device().setName("Redmi 3S")
